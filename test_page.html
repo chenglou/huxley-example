@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello Huxley!</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body.modal-open {
+        margin-right: 0;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Test component</h1>
+      <div class="row">
+        <p class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+          <input type="text" class="form-control"/>
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+          <button id="toggleLink" class="btn">Click me to toggle!</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $('#toggleLink').click(function() {
+        $(this).toggleClass('btn-primary');
+      });
+    </script>
+  </body>
+</html>
