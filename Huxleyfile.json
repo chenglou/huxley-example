@@ -1,0 +1,11 @@
+[
+  {
+    "name": "type",
+    "screenSize": [750, 500],
+    "url": "http://localhost:8000/test_page.html"
+  },
+  {
+    "name": "toggle button",
+    "url": "http://localhost:8000/test_page.html"
+  }
+]
